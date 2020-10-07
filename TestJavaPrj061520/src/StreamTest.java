@@ -3,7 +3,7 @@ import java.util.stream.Collectors;
 public class StreamTest {  // Stream Test 10/06/20 -Tue
     public static void main(String[] args) 
     { 
-    	test1();
+    	test1();  // test
     	test2();
     } 
     static void test1()
