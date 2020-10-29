@@ -1,7 +1,8 @@
 
-public class GagOrderFine {
+public class GagOrderFine { // test
 	public static void main(String[] args) {
 		double d1 = 0;
+		int x2 = 12;
 		Character  x = 12;
 		d1 = x;
 		double d2 = 0;
