@@ -1,6 +1,9 @@
 import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicInteger;
 public class TestFannieMae3 {
 	public static void main(String[] args) {
+		AtomicInteger a1 = new AtomicInteger();
+		a1.addAndGet(1);
 		int[] nArr = { 0, 0, 1, 4, 0, 6, 0, 15, 0, 13, 0, 0,  0 }; // {1,0,3,-1,0,0,0,0,7,8,10,0,4,1};
 		System.out.println(Arrays.toString(nArr));
 		shiftZeroesToLeft(nArr);
